@@ -1,0 +1,49 @@
+.uploaddnd {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    color: #ccc;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px;
+    font-size: 200%;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+.uploaddnd-over {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+.has-error .uploaddnd {
+    border-color: #a94442;
+    color: #a94442;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset
+}
+.filename {
+    width: 100%
+}
+.noselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none
+}
+.filechooser {
+    display: none !important
+}
+.newdocumentfile-form-group {
+    margin-bottom: 0px
+}
+.ecmpropertycol {
+    width: 50%;
+    vertical-align: middle
+}
+.ecmprogress {
+    margin-bottom: 0px;
+    margin-top: 10px
+}
+.uploadform-group {
+    margin-bottom: 0px
+}

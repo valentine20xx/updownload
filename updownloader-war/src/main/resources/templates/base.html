@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{% block title %}No title{% endblock %}</title>
+    <meta charset="UTF-8">
+    {% block meta %}
+    {% endblock %}
+    {% block style %}
+    <link rel="stylesheet" href="{{ contextPath }}/resources/css/bootstrap.min.css">
+    {% endblock %}
+    {% block scripts %}
+    <script type="text/javascript" src="{{ contextPath }}/resources/js/jquery-2.2.4.min.js" defer></script>
+    <script type="text/javascript" src="{{ contextPath }}/resources/js/bootstrap.min.js" defer></script>
+    {% endblock %}
+</head>
+<body class="container-fluid">
+{% block content %}Base.html{% endblock %}
+</body>
+</html>
